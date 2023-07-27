@@ -1,4 +1,4 @@
-## **PRO-CP**
+## **CaaS-LSM**
 
 ### **Dependencies**
 
@@ -6,7 +6,7 @@
     - Prepare for the dependencies of RocksDB: [https://github.com/facebook/rocksdb/blob/main/INSTALL.md](https://github.com/facebook/rocksdb/blob/main/INSTALL.md)
     - Install and config HDFS server
 
-### **Use of PRO-CP (remote compaction mode)**
+### **Use of Control Plane (remote compaction mode)**
 
 - Config the address of coordinator (control plane) ,worker_agent (CSA) and HDFS server in `db/compaction/remote_compaction/rpc_config.h`
 - Build and compile
